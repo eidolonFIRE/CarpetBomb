@@ -5,7 +5,7 @@ Linux support only!
 TODO:
  - tune zoom factor
  - more intelligently reduce vertices of poly
- - add windows support (capture input and fake out put even while window is not focus)
+ - add windows support (capture input and fake output even while window is not in focus)
 
 You need to install this...
 https://github.com/python-xlib/python-xlib
