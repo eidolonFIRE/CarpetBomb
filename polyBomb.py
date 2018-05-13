@@ -71,8 +71,10 @@ class Poly(object):
 	def polyBomb(self):
 		scale = self.getScale()
 		count = 0
+		offsetRow = True
 		for mx in range(self.left, self.right, scale):
-			for my in range(self.top, self.bottom, scale):
+			offsetRow = not offsetRow
+			for my in range(self.top  - (scale / 2 * offsetRow), self.bottom, scale):
 				if self.contains(mx, my):
 					self.bomb(mx, my)
 					count += 1
