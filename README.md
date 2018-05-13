@@ -16,5 +16,5 @@ https://github.com/python-xlib/python-xlib
  - Open map in factorio. Zoom all the way out to sync zoom levels with script.
  - Zoom in to desired level.
  - Hold middle mouse button down while tracing route.
- - When finished, exit script by pressing the tilde key.
+ - When finished, exit script by pressing the tilde key (console key in factorio).
  
